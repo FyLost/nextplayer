@@ -232,6 +232,7 @@ class PlayerActivity : AppCompatActivity() {
 
         binding = ActivityPlayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.playerView.controllerAutoShow = false
 
         // Initializing views
         audioTrackButton = binding.playerView.findViewById(R.id.btn_audio_track)
